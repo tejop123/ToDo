@@ -19,7 +19,7 @@
 body {
   position: relative;
   height: 100vh;
-  background-image: url("bg.jpg");
+  background-image: url("image.png");
   color: var(--color-text);
   display: flex;
   justify-content: center;
@@ -47,13 +47,14 @@ body {
   margin: 0 400px;
   min-width: 640px;
   max-width: 1000px;
+  min-height: 500px;
   background: var(--color-card-bg);
   box-shadow: 0 8px 32px rgba(31, 116, 135, 0.3);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
   border: 1px solid var(--color-border);
-  padding: 20px;
+  padding: 5px;
 }
 
 /* Header */
